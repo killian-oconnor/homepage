@@ -72,6 +72,22 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Custom  */
+
+.linkImgHolder {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 10px;
+	margin-top: -100px;
+}
+
+.linkImg {
+	height: 5rem;
+	width: 5rem;
+	padding: 10px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3329,16 +3345,3 @@ input, select, textarea {
 
 		}
 
-.linkImgHolder {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	padding: 10px;
-	margin-top: -100px;
-}
-
-.linkImg {
-	height: 5rem;
-	width: 5rem;
-	padding: 10px;
-}
